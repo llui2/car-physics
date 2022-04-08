@@ -158,7 +158,7 @@ class Game:
                      car_collider.x = car.position.x * ppu - car_collider.width / 2
                      car_collider.y = car.position.y * ppu - car_collider.height / 2
                      pygame.draw.rect(self.screen,(0, 255, 0),  car_collider, 3)"""
-                     #collision logic
+                     #collision logic (i can't make it work properly)
                      """if car_collider.right >= 1600 or car_collider.left <= 0:
                             car.position = init_x,init_y
                             car.velocity.x, car.angle = 0, 0
